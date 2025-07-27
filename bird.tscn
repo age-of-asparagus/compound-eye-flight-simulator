@@ -1,9 +1,10 @@
-[gd_scene load_steps=27 format=4 uid="uid://ceieqthdaigv0"]
+[gd_scene load_steps=28 format=4 uid="uid://ceieqthdaigv0"]
 
 [ext_resource type="Script" uid="uid://cdyapjm37enn6" path="res://bird.gd" id="1_g5k2s"]
 [ext_resource type="Texture2D" uid="uid://b0lpeog8s2kcv" path="res://Assets/low_poly_pigeon/textures/material_0_baseColor.png" id="2_cchwj"]
 [ext_resource type="Texture2D" uid="uid://up8yhmwst5sj" path="res://Assets/low_poly_pigeon/textures/material_2_baseColor.png" id="3_6ljjq"]
 [ext_resource type="Texture2D" uid="uid://dyqqj8igt5gn8" path="res://Assets/low_poly_pigeon/textures/material_3_baseColor.png" id="4_axl6x"]
+[ext_resource type="AudioStream" uid="uid://b1huttoutk5q6" path="res://Assets/Sounds/571273__princeofworms__hawkeagle-cry-distant.mp3" id="5_6ljjq"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_owhn0"]
 size = Vector3(0.4, 0.2, 0.6)
@@ -339,7 +340,7 @@ wait_time = 10.0
 one_shot = true
 
 [node name="bird_model" type="Node3D" parent="."]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, -0.25, 0)
 
 [node name="Sketchfab_model" type="Node3D" parent="bird_model"]
 transform = Transform3D(-1, 8.74228e-08, 3.82137e-15, 0, -4.37114e-08, 1, 8.74228e-08, 1, 4.37114e-08, 0, 0, 0)
@@ -412,6 +413,10 @@ libraries = {
 collision_mask = 3
 hit_from_inside = true
 collide_with_areas = true
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("5_6ljjq")
+volume_db = 10.0
 
 [connection signal="area_entered" from="bee_killer" to="." method="_on_bee_killer_area_entered"]
 [connection signal="timeout" from="point_picker" to="." method="_on_point_picker_timeout"]

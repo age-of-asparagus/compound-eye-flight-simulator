@@ -7,6 +7,7 @@ var test = preload("res://bird_flight_debugger.tscn")
 @onready var bee_detector = $bee_detector
 @onready var bird_model = $bird_model
 @onready var animation_player = $bird_model/AnimationPlayer
+@onready var audio_stream_player_3d = $AudioStreamPlayer3D
 
 @export var attack_speed : float
 
@@ -29,6 +30,8 @@ var target_tilt = 0.0
 var tilt_angle = 0.0
 var tilt_speed = 5.0
 var return_tilt_speed = 3.0
+
+var audio_played = false
 
 var direction : Vector3
 var velocity : Vector3
@@ -59,6 +62,11 @@ func _physics_process(delta):
 	
 	
 	if bee_detected() or current_state == STATE.ATTACKING:
+		
+		if not audio_played:
+			audio_played = true
+			audio_stream_player_3d.play()
+		
 		current_state = STATE.ATTACKING
 		attack_bee(delta)
 	else:
@@ -73,14 +81,20 @@ func attack_bee(delta):
 
 	
 	if (bee_attacker.get_collider() == null or abs((bee_attacker.get_collider().global_position - Global.bee_position).length()) <= 0.1) and Global.bee_position.y > 5:
-		global_position += bee_direction * attack_speed * delta
-		direction = bee_direction
+		
 		animation_player.play("flapping")
-		facing_angle = atan2(direction.x, direction.z)
-		bird_model.basis = Basis(Vector3.UP, facing_angle)
+		var target_direction = bee_direction
+		
+		direction = lerp(direction, target_direction, 25 * delta)
+		global_position += direction * attack_speed * delta
+		
+		
+		bird_model.look_at(global_position-bee_direction)
+		
 		
 		
 	else:
+		audio_played = false
 		circling_point = starting_position
 		current_state = STATE.FLYING_BACK
 
@@ -91,7 +105,8 @@ func move_naturally(delta):
 		STATE.FLYING_BACK:
 			animation_player.play("flapping")
 			var target_direction = (starting_position - global_position)
-			direction = lerp(direction, target_direction, 5 * delta)
+			direction = lerp(direction, target_direction, 25 * delta)
+			look_at(global_position -target_direction)
 			global_position += direction * movement_speed * delta
 			
 			if (global_position - circling_point) < movement_speed * delta:
@@ -149,9 +164,6 @@ func move_naturally(delta):
 	tilt_angle = lerp(tilt_angle, target_tilt, tilt_speed * delta)
 	bird_model.rotation.z = tilt_angle
 
-	
-	
-	
 
 
 
