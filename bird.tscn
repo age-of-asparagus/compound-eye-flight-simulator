@@ -7,13 +7,13 @@
 [ext_resource type="AudioStream" uid="uid://b1huttoutk5q6" path="res://Assets/Sounds/571273__princeofworms__hawkeagle-cry-distant.mp3" id="5_6ljjq"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_owhn0"]
-size = Vector3(0.75, 0.4, 0.75)
+size = Vector3(1.5, 0.6, 1.5)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_g5k2s"]
 size = Vector3(100, 100, 100)
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_cchwj"]
-radius = 10.0
+radius = 15.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xhaog"]
 resource_name = "material_0"
@@ -323,6 +323,7 @@ collision_layer = 0
 [node name="CollisionShape3D" type="CollisionShape3D" parent="bee_killer"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0)
 shape = SubResource("BoxShape3D_owhn0")
+debug_color = Color(0.931486, 2.65682e-05, 0.65258, 0.42)
 
 [node name="bee_detector" type="Area3D" parent="."]
 collision_layer = 0
@@ -340,7 +341,7 @@ wait_time = 10.0
 one_shot = true
 
 [node name="bird_model" type="Node3D" parent="."]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, -0.05, 0)
+transform = Transform3D(0.45, 0, 0, 0, 0.45, 0, 0, 0, 0.45, 0, -0.05, 0)
 
 [node name="Sketchfab_model" type="Node3D" parent="bird_model"]
 transform = Transform3D(-1, 8.74228e-08, 3.82137e-15, 0, -4.37114e-08, 1, 8.74228e-08, 1, 4.37114e-08, 0, 0, 0)
@@ -377,7 +378,7 @@ mesh = SubResource("ArrayMesh_h4jyx")
 skeleton = NodePath("")
 
 [node name="wingb1_4" type="Node3D" parent="bird_model/Sketchfab_model/root/GLTF_SceneRootNode/_10/winga1_5"]
-transform = Transform3D(0.984808, 0.173648, 0, -0.173648, 0.984808, 0, 0, 0, 1, -1.375, 0.125, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.375, 0.125, 0)
 
 [node name="wingb1_3" type="Node3D" parent="bird_model/Sketchfab_model/root/GLTF_SceneRootNode/_10/winga1_5/wingb1_4"]
 
@@ -396,7 +397,7 @@ mesh = SubResource("ArrayMesh_kyqxa")
 skeleton = NodePath("")
 
 [node name="wingb2_8" type="Node3D" parent="bird_model/Sketchfab_model/root/GLTF_SceneRootNode/_10/winga2_9"]
-transform = Transform3D(0.984808, -0.173648, 0, 0.173648, 0.984808, 0, 0, 0, 1, 1.375, 0.125, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.375, 0.125, 0)
 
 [node name="wingb2_7" type="Node3D" parent="bird_model/Sketchfab_model/root/GLTF_SceneRootNode/_10/winga2_9/wingb2_8"]
 

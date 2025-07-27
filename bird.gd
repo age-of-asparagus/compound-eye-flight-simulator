@@ -56,35 +56,42 @@ func _ready():
 	
 
 func _physics_process(delta):
+
 	#var TEST = test.instantiate()
 	#get_parent().add_child(TEST)
 	#TEST.global_position = global_position
 	
 	
-	if bee_detected() or current_state == STATE.ATTACKING:
+	if (bee_detected() and current_state != STATE.FLYING_BACK) or current_state == STATE.ATTACKING:
 		
-		if not audio_played:
-			audio_played = true
-			audio_stream_player_3d.play()
+
 		
 		current_state = STATE.ATTACKING
+		print(current_state)
 		attack_bee(delta)
 	else:
+		print(current_state)
 		move_naturally(delta)
 	
 
 func attack_bee(delta):
 	
 	var bee_direction = (Global.bee_position - global_position).normalized()
-	bee_attacker.target_position = bee_direction * 100000
 	var displacement_to_bee = (Global.bee_position - global_position).length()
+	bee_attacker.target_position = bee_direction * (displacement_to_bee+5)
 	
+	print(bee_attacker.get_collider())
 	if (bee_attacker.get_collider() == null or "boost_acceleration" in bee_attacker.get_collider().get_parent()) and Global.bee_position.y > 5:
-		print("hi")
+
+
+		if not audio_played and not bee_attacker.get_collider() == null:
+			audio_played = true
+			audio_stream_player_3d.play()
+		
 		animation_player.play("flapping")
 		var target_direction = bee_direction
 		
-		direction = lerp(direction, target_direction, 25 * delta)
+		direction = lerp(direction, target_direction, 3 * delta)
 		global_position += direction * attack_speed * delta
 		
 		
@@ -93,6 +100,7 @@ func attack_bee(delta):
 		
 		
 	else:
+		bee_attacker.target_position = Vector3.ZERO
 		audio_played = false
 		circling_point = starting_position
 		current_state = STATE.FLYING_BACK
@@ -103,14 +111,14 @@ func move_naturally(delta):
 		
 		STATE.FLYING_BACK:
 			animation_player.play("flapping")
-			var target_direction = (starting_position - global_position).normalized()
-			direction = lerp(direction, target_direction, 25 * delta)
-			#look_at(global_position -target_direction)
+			var target_direction = (Vector3(circling_point.x, circling_point.y, circling_point.z+circling_radius) - global_position).normalized()
+			direction = lerp(direction, target_direction, 3 * delta)
 			global_position += direction * movement_speed * delta
 			
-			if (global_position - circling_point).length() < movement_speed * delta:
+			if (global_position - Vector3(circling_point.x, circling_point.y, circling_point.z+circling_radius)).length() < movement_speed * delta:
 				global_position = circling_point
 				pick_new_circling_point()
+				angle = 0.0
 				current_state = STATE.LEAVING_ORBIT
 			
 		
@@ -120,7 +128,10 @@ func move_naturally(delta):
 			velocity = direction_to_target * movement_speed * delta
 			direction = direction_to_target
 			global_position += velocity
-			bird_model.basis = Basis(Vector3.UP, facing_angle)
+			var scale = bird_model.transform.basis.get_scale()
+			var new_basis = Basis(Vector3.UP, facing_angle).scaled(scale)
+			
+			bird_model.basis = new_basis
 			
 			max_tilt = 0
 			
@@ -157,7 +168,9 @@ func move_naturally(delta):
 	
 	
 	facing_angle = atan2(direction.x, direction.z)
-	bird_model.basis = Basis(Vector3.UP, facing_angle)
+	var scale = bird_model.transform.basis.get_scale()
+	var new_basis = Basis(Vector3.UP, facing_angle).scaled(scale)
+	bird_model.basis = new_basis
 	
 	target_tilt = float(angle_direction * max_tilt * -1)
 	tilt_angle = lerp(tilt_angle, target_tilt, tilt_speed * delta)
