@@ -78,7 +78,7 @@ func attack_bee(delta):
 	
 	var bee_direction = (Global.bee_position - global_position).normalized()
 	var displacement_to_bee = (Global.bee_position - global_position).length()
-	bee_attacker.target_position = bee_direction * (displacement_to_bee+5)
+	bee_attacker.target_position = bee_direction * (displacement_to_bee+15)
 	
 	print(bee_attacker.get_collider())
 	if (bee_attacker.get_collider() == null or "boost_acceleration" in bee_attacker.get_collider().get_parent()) and Global.bee_position.y > 5:
@@ -206,7 +206,7 @@ func bee_detected():
 
 func pick_new_circling_point():
 	previous_circling_point = circling_point
-	circling_point = Vector3(starting_position.x + rng.randf_range(-50,50), starting_position.y, starting_position.z + rng.randf_range(-50,50))
+	circling_point = Vector3(starting_position.x + rng.randf_range(-30,30), starting_position.y, starting_position.z + rng.randf_range(-30,30))
 	current_state = STATE.LEAVING_ORBIT
 
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://ydmombs4jus8"]
+[gd_scene load_steps=8 format=3 uid="uid://ydmombs4jus8"]
 
 [ext_resource type="Script" uid="uid://dblbge14rfbxn" path="res://bee.gd" id="1_xww1r"]
 [ext_resource type="PackedScene" uid="uid://dkaqfga0ld3c" path="res://Assets/bee_low_poly/scene.gltf" id="2_q8d8k"]
@@ -9,6 +9,9 @@
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hoj8b"]
 radius = 0.0215587
 height = 0.0897063
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_b1nx6"]
+radius = 0.150495
 
 [node name="Bee" type="CharacterBody3D"]
 script = ExtResource("1_xww1r")
@@ -30,6 +33,7 @@ autoplay = true
 parameters/looping = true
 
 [node name="crash_detector" type="Area3D" parent="."]
+collision_layer = 0
 collision_mask = 2
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="crash_detector"]
@@ -62,6 +66,13 @@ parameters/looping = true
 
 [node name="NecterSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_b1nx6")
+
+[node name="bird_detector" type="Area3D" parent="."]
+collision_mask = 0
+monitoring = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="bird_detector"]
+shape = SubResource("SphereShape3D_b1nx6")
 
 [connection signal="body_entered" from="crash_detector" to="." method="_on_crash_detector_body_entered"]
 [connection signal="area_entered" from="flower_detector" to="." method="_on_flower_detector_area_entered"]
