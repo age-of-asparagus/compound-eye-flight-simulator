@@ -97,7 +97,7 @@ theme_override_constants/separation = 20
 layout_mode = 2
 theme = ExtResource("7_macso")
 button_pressed = true
-text = "Enable Facet VIsion"
+text = "Enable Facet Vision"
 
 [node name="Label2" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer2/PanelContainer/VBoxContainer"]
 layout_mode = 2
