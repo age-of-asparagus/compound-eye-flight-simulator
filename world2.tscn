@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://cltkt8sum2p35"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_fj7yv"]
+sky_top_color = Color(0.0410786, 0.894213, 1, 1)
+sky_horizon_color = Color(0.610605, 0.823889, 0.850335, 1)
+ground_bottom_color = Color(0.384314, 0.666667, 0.239216, 1)
+ground_horizon_color = Color(0.610605, 0.823889, 0.850335, 1)
+
+[sub_resource type="Sky" id="Sky_tlwt5"]
+sky_material = SubResource("ProceduralSkyMaterial_fj7yv")
+
+[sub_resource type="Environment" id="Environment_aqk2v"]
+background_mode = 2
+sky = SubResource("Sky_tlwt5")
+ambient_light_source = 2
+ambient_light_color = Color(0.830335, 0.830335, 0.830335, 1)
+reflected_light_source = 2
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pkg7o"]
+albedo_color = Color(0.384314, 0.666667, 0.239216, 1)
+
+[node name="World" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+light_energy = 0.2
+light_specular = 0.0
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_aqk2v")
+
+[node name="GroundCSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+calculate_tangents = false
+use_collision = true
+collision_layer = 2
+collision_mask = 0
+size = Vector3(1000, 0.5, 1000)
+material = SubResource("StandardMaterial3D_pkg7o")
+
+[node name="GridMap" type="GridMap" parent="."]
+metadata/_editor_floor_ = Vector3(0, 1, 0)
