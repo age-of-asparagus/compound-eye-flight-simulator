@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdmlfnjw5ga42"
 path.s3tc="res://.godot/imported/FarmAssets_baseColor.jpeg-dd46c32fa23050467abd972f6c560104.s3tc.ctex"
+path.etc2="res://.godot/imported/FarmAssets_baseColor.jpeg-dd46c32fa23050467abd972f6c560104.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/asset_pack_-_farm_lp_aniball_rumble/textures/FarmAssets_baseColor.jpeg"
-dest_files=["res://.godot/imported/FarmAssets_baseColor.jpeg-dd46c32fa23050467abd972f6c560104.s3tc.ctex"]
+dest_files=["res://.godot/imported/FarmAssets_baseColor.jpeg-dd46c32fa23050467abd972f6c560104.s3tc.ctex", "res://.godot/imported/FarmAssets_baseColor.jpeg-dd46c32fa23050467abd972f6c560104.etc2.ctex"]
 
 [params]
 

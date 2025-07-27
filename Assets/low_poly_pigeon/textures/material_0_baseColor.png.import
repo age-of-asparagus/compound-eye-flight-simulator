@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0lpeog8s2kcv"
 path.s3tc="res://.godot/imported/material_0_baseColor.png-73caada7e6563cd9b5a51b8267e70995.s3tc.ctex"
+path.etc2="res://.godot/imported/material_0_baseColor.png-73caada7e6563cd9b5a51b8267e70995.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/low_poly_pigeon/textures/material_0_baseColor.png"
-dest_files=["res://.godot/imported/material_0_baseColor.png-73caada7e6563cd9b5a51b8267e70995.s3tc.ctex"]
+dest_files=["res://.godot/imported/material_0_baseColor.png-73caada7e6563cd9b5a51b8267e70995.s3tc.ctex", "res://.godot/imported/material_0_baseColor.png-73caada7e6563cd9b5a51b8267e70995.etc2.ctex"]
 
 [params]
 

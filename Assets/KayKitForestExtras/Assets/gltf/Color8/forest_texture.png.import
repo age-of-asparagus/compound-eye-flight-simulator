@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnq6tvki33p1l"
 path.s3tc="res://.godot/imported/forest_texture.png-a218b265b96df912d74b18da9985741c.s3tc.ctex"
+path.etc2="res://.godot/imported/forest_texture.png-a218b265b96df912d74b18da9985741c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/KayKitForestExtras/Assets/gltf/Color8/forest_texture.png"
-dest_files=["res://.godot/imported/forest_texture.png-a218b265b96df912d74b18da9985741c.s3tc.ctex"]
+dest_files=["res://.godot/imported/forest_texture.png-a218b265b96df912d74b18da9985741c.s3tc.ctex", "res://.godot/imported/forest_texture.png-a218b265b96df912d74b18da9985741c.etc2.ctex"]
 
 [params]
 

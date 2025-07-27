@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6lne6ox7y5tw"
 path.s3tc="res://.godot/imported/Atlas_Alpha_baseColor.png-1fdef69ed2781180cc707eb13998e52c.s3tc.ctex"
+path.etc2="res://.godot/imported/Atlas_Alpha_baseColor.png-1fdef69ed2781180cc707eb13998e52c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/bee_low_poly/textures/Atlas_Alpha_baseColor.png"
-dest_files=["res://.godot/imported/Atlas_Alpha_baseColor.png-1fdef69ed2781180cc707eb13998e52c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Atlas_Alpha_baseColor.png-1fdef69ed2781180cc707eb13998e52c.s3tc.ctex", "res://.godot/imported/Atlas_Alpha_baseColor.png-1fdef69ed2781180cc707eb13998e52c.etc2.ctex"]
 
 [params]
 

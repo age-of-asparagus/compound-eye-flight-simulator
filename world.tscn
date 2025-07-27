@@ -45,7 +45,7 @@ environment = SubResource("Environment_aqk2v")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0.5, -50.5)
 use_collision = true
 collision_layer = 2
-size = Vector3(1000, 1, 1000)
+size = Vector3(1000, 0.5, 1000)
 material = ExtResource("1_gbfbk")
 
 [node name="GroundCSGBox3D" type="CSGBox3D" parent="."]
@@ -63,7 +63,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(37, 2, 10)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut2" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5, -0.25, -41.5)
@@ -71,7 +71,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(9, 2, 13)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut5" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, -0.25, -28)
@@ -79,7 +79,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(18, 2, 16)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut6" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.5, -0.25, -6)
@@ -87,7 +87,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(9, 2, 30)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut7" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.5, -0.25, 36)
@@ -95,7 +95,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(21, 2, 16)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut11" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.5, -0.25, 36.5)
@@ -110,7 +110,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(33, 2, 7)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut9" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23, -0.25, 40.5)
@@ -118,7 +118,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(16, 2, 7)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut10" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26, -0.25, 27.5)
@@ -126,7 +126,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(16, 2, 21)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut3" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31, -0.25, -43)
@@ -134,7 +134,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(12, 2, 42)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="CSGBox3D2Cut4" type="CSGBox3D" parent="GroundCSGBox3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.5, -0.25, 35)
@@ -142,7 +142,7 @@ operation = 2
 use_collision = true
 collision_layer = 2
 size = Vector3(11, 2, 42)
-material = ExtResource("1_gbfbk")
+material = ExtResource("2_ioo17")
 
 [node name="GridMapBusesAndGrass" type="GridMap" parent="."]
 mesh_library = ExtResource("1_pkg7o")
