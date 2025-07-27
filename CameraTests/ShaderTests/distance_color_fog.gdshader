@@ -23,14 +23,14 @@ void fragment() {
     view /= view.w;
     float linear_depth = -view.z;
 
-   
+
     float fog_factor = clamp((linear_depth - fog_near) / (fog_far - fog_near), 0.0, 1.0);
     fog_factor *= fog_amount;
 
-   
+
     vec4 fog_color = texture(gradient, vec2(fog_factor, 0.0));
 
-    
+
     vec3 final_color = mix(original.rgb, fog_color.rgb, fog_color.a * fog_strength);
     ALBEDO = final_color;
 }

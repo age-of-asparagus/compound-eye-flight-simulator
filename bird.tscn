@@ -1,10 +1,11 @@
-[gd_scene load_steps=28 format=4 uid="uid://ceieqthdaigv0"]
+[gd_scene load_steps=29 format=4 uid="uid://ceieqthdaigv0"]
 
 [ext_resource type="Script" uid="uid://cdyapjm37enn6" path="res://bird.gd" id="1_g5k2s"]
 [ext_resource type="Texture2D" uid="uid://b0lpeog8s2kcv" path="res://Assets/low_poly_pigeon/textures/material_0_baseColor.png" id="2_cchwj"]
 [ext_resource type="Texture2D" uid="uid://up8yhmwst5sj" path="res://Assets/low_poly_pigeon/textures/material_2_baseColor.png" id="3_6ljjq"]
 [ext_resource type="Texture2D" uid="uid://dyqqj8igt5gn8" path="res://Assets/low_poly_pigeon/textures/material_3_baseColor.png" id="4_axl6x"]
 [ext_resource type="AudioStream" uid="uid://b1huttoutk5q6" path="res://Assets/Sounds/571273__princeofworms__hawkeagle-cry-distant.mp3" id="5_6ljjq"]
+[ext_resource type="AudioStream" uid="uid://bylrnqul48ewt" path="res://Assets/Sounds/811528__designerschoice__wingmisc-cu_bat-wings-flapping_nicholas-judy_tdc.wav" id="6_axl6x"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_owhn0"]
 size = Vector3(1.5, 0.6, 1.5)
@@ -417,7 +418,14 @@ collide_with_areas = true
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
 stream = ExtResource("5_6ljjq")
+attenuation_model = 3
 volume_db = 10.0
+max_db = 6.0
+
+[node name="AudioWingFlap" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("6_axl6x")
+attenuation_model = 1
+max_distance = 15.0
 
 [connection signal="area_entered" from="bee_killer" to="." method="_on_bee_killer_area_entered"]
 [connection signal="timeout" from="point_picker" to="." method="_on_point_picker_timeout"]

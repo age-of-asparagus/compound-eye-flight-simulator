@@ -1,5 +1,6 @@
 extends Node3D
 
+
 var test = preload("res://bird_flight_debugger.tscn")
 
 @onready var bee_attacker = $bee_attacker
@@ -8,6 +9,7 @@ var test = preload("res://bird_flight_debugger.tscn")
 @onready var bird_model = $bird_model
 @onready var animation_player = $bird_model/AnimationPlayer
 @onready var audio_stream_player_3d = $AudioStreamPlayer3D
+@onready var audio_wing_flap: AudioStreamPlayer3D = $AudioWingFlap
 
 @export var attack_speed : float
 
@@ -69,9 +71,12 @@ func _physics_process(delta):
 		current_state = STATE.ATTACKING
 		print(current_state)
 		attack_bee(delta)
+		if not audio_wing_flap.playing:
+			audio_wing_flap.play()
 	else:
 		print(current_state)
 		move_naturally(delta)
+		audio_wing_flap.stop()
 	
 
 func attack_bee(delta):
