@@ -1,20 +1,19 @@
 [gd_scene load_steps=7 format=3 uid="uid://bt1faqtlb82p8"]
 
-[ext_resource type="Script" uid="uid://eun22o8lgu3k" path="res://Menus/settings_menu.gd" id="1_isvg7"]
 [ext_resource type="Texture2D" uid="uid://bfxakykrxuv8l" path="res://Assets/background.png" id="2_io7n2"]
 [ext_resource type="PackedScene" uid="uid://datosexhdbjj2" path="res://Menus/TitlePanel.tscn" id="3_io7n2"]
 [ext_resource type="PackedScene" uid="uid://c33cnflued084" path="res://Menus/button_load_scene.tscn" id="3_isvg7"]
 [ext_resource type="PackedScene" uid="uid://dmw1q1asg0qrw" path="res://Menus/banner.tscn" id="5_3olhq"]
 [ext_resource type="PackedScene" uid="uid://dvb7sq1wavcrg" path="res://Menus/CreatedPanel.tscn" id="5_5n62t"]
+[ext_resource type="AudioStream" uid="uid://d10orpfxyhkli" path="res://Assets/Sounds/495117__nebulasnails__wet-splat-2.mp3" id="7_7y5yy"]
 
-[node name="SettingsMenu2" type="Control"]
+[node name="DeadMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_isvg7")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 self_modulate = Color(1, 1, 1, 0.501961)
@@ -76,5 +75,10 @@ layout_mode = 2
 
 [node name="TitleLabel" parent="MarginContainer/HBoxContainer/CenterContainer/PanelContainer" index="0"]
 text = "YOU DIED!"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_7y5yy")
+volume_db = 3.0
+autoplay = true
 
 [editable path="MarginContainer/HBoxContainer/CenterContainer/PanelContainer"]

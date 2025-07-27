@@ -9,3 +9,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	necter_progress_bar.value = Global.necter
 	hive_progress_bar.value = Global.points
+
+
+func _on_texture_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://Menus/main_menu.tscn")
