@@ -8,4 +8,5 @@ theme = ExtResource("1_qvw73")
 [node name="FooterText" type="Label" parent="."]
 layout_mode = 2
 size_flags_vertical = 0
+theme_override_font_sizes/font_size = 20
 text = "Created by H0K9 and AgeOfAsparagus for Melon Jam 6."

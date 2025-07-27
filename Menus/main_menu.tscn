@@ -57,9 +57,14 @@ theme_override_constants/separation = 20
 layout_mode = 2
 text = "PLAY  "
 
+[node name="ButtonHow" parent="MarginContainer/HBoxContainer/VBoxContainer/VBoxContainer" instance=ExtResource("2_11gta")]
+layout_mode = 2
+text = "HOW TO PLAY"
+scene_path = "uid://bveqbfw2810lj"
+
 [node name="ButtonSettings" parent="MarginContainer/HBoxContainer/VBoxContainer/VBoxContainer" instance=ExtResource("2_11gta")]
 layout_mode = 2
-text = "SETTINGS AND EXPLANATIONS
+text = "SETTINGS
 "
 scene_path = "uid://bh5e24bmy5pci"
 

@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://bh5e24bmy5pci"]
+[gd_scene load_steps=10 format=3 uid="uid://bh5e24bmy5pci"]
 
 [ext_resource type="Texture2D" uid="uid://bfxakykrxuv8l" path="res://Assets/background.png" id="1_evfbw"]
 [ext_resource type="Script" uid="uid://eun22o8lgu3k" path="res://Menus/settings_menu.gd" id="1_kpbbf"]
 [ext_resource type="PackedScene" uid="uid://c33cnflued084" path="res://Menus/button_load_scene.tscn" id="2_kpbbf"]
 [ext_resource type="AudioStream" uid="uid://3soj74ic5lk2" path="res://Assets/Sounds/Kenney/impactWood_light_000.ogg" id="2_macso"]
 [ext_resource type="PackedScene" uid="uid://datosexhdbjj2" path="res://Menus/TitlePanel.tscn" id="3_kpbbf"]
+[ext_resource type="Theme" uid="uid://ct5b5xe475rle" path="res://Menus/Theme/theme.tres" id="4_evfbw"]
 [ext_resource type="PackedScene" uid="uid://bf33w2cy0n0eo" path="res://Menus/MenuTitle.tscn" id="5_4tigv"]
 [ext_resource type="PackedScene" uid="uid://dvb7sq1wavcrg" path="res://Menus/CreatedPanel.tscn" id="6_04tbk"]
 [ext_resource type="Theme" uid="uid://bvnm8v6xvb2nf" path="res://Menus/Theme/Check.tres" id="7_macso"]
@@ -100,6 +101,7 @@ text = "Enable Facet VIsion"
 
 [node name="Label2" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer2/PanelContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("4_evfbw")
 text = "Compound eyes are made up of thousands of \"ommatidium\" each of which acts as a simple light sensor.  To simulate this, we pixellate (or hexellate) the screen to simulate their \"mosaic vision\".  Turning this off is boring and blurry (because of the wide angle and zoom combo) but was helpful for debugging."
 autowrap_mode = 3
 
@@ -110,6 +112,7 @@ text = "Enable Acute Vision Zone"
 
 [node name="Label" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer2/PanelContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("4_evfbw")
 text = "Many insects with compound eyes have an area of ommatidia that are more densly packed together called an \"acute zone\". This gives them about twice the visual resolution in that direction, usually straight ahead."
 autowrap_mode = 3
 
@@ -120,6 +123,7 @@ text = "Enable Bee Spectrum"
 
 [node name="Label3" type="Label" parent="MarginContainer/HBoxContainer/VBoxContainer2/PanelContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("4_evfbw")
 text = "Bees can't see red, but they CAN see into the ultraviolet spectrum.  Many flowers that would look bright yellow or pink to us, shine brightly in the ultraviolet to help bees find them and can even act as landing strips!  In the game flowers that you havent visited will appear purple, but this setting will remove all red from everything."
 autowrap_mode = 3
 
