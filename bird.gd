@@ -78,10 +78,9 @@ func attack_bee(delta):
 	var bee_direction = (Global.bee_position - global_position).normalized()
 	bee_attacker.target_position = bee_direction * 100000
 	var displacement_to_bee = (Global.bee_position - global_position).length()
-
 	
-	if (bee_attacker.get_collider() == null or abs((bee_attacker.get_collider().global_position - Global.bee_position).length()) <= 0.1) and Global.bee_position.y > 5:
-		
+	if (bee_attacker.get_collider() == null or "boost_acceleration" in bee_attacker.get_collider().get_parent()) and Global.bee_position.y > 5:
+		print("hi")
 		animation_player.play("flapping")
 		var target_direction = bee_direction
 		
@@ -104,12 +103,12 @@ func move_naturally(delta):
 		
 		STATE.FLYING_BACK:
 			animation_player.play("flapping")
-			var target_direction = (starting_position - global_position)
+			var target_direction = (starting_position - global_position).normalized()
 			direction = lerp(direction, target_direction, 25 * delta)
-			look_at(global_position -target_direction)
+			#look_at(global_position -target_direction)
 			global_position += direction * movement_speed * delta
 			
-			if (global_position - circling_point) < movement_speed * delta:
+			if (global_position - circling_point).length() < movement_speed * delta:
 				global_position = circling_point
 				pick_new_circling_point()
 				current_state = STATE.LEAVING_ORBIT
