@@ -40,7 +40,8 @@ enum STATE {
 	ENTERING_ORBIT,
 	ORBITING,
 	LEAVING_ORBIT,
-	ATTACKING
+	ATTACKING,
+	FLYING_BACK
 }
 
 var current_state = STATE.LEAVING_ORBIT
@@ -69,7 +70,7 @@ func attack_bee(delta):
 	var bee_direction = (Global.bee_position - global_position).normalized()
 	bee_attacker.target_position = bee_direction * 100000
 	var displacement_to_bee = (Global.bee_position - global_position).length()
-	#var displacement_to_collider = (bee_attacker.get_collider().global_position - global_position).length()
+
 	
 	if (bee_attacker.get_collider() == null or abs((bee_attacker.get_collider().global_position - Global.bee_position).length()) <= 0.1) and Global.bee_position.y > 5:
 		global_position += bee_direction * attack_speed * delta
@@ -77,12 +78,27 @@ func attack_bee(delta):
 		animation_player.play("flapping")
 		facing_angle = atan2(direction.x, direction.z)
 		bird_model.basis = Basis(Vector3.UP, facing_angle)
+		
+		
 	else:
-		current_state = STATE.ENTERING_ORBIT
+		circling_point = starting_position
+		current_state = STATE.FLYING_BACK
 
 func move_naturally(delta):
 	
 	match current_state:
+		
+		STATE.FLYING_BACK:
+			animation_player.play("flapping")
+			var target_direction = (starting_position - global_position)
+			direction = lerp(direction, target_direction, 5 * delta)
+			global_position += direction * movement_speed * delta
+			
+			if (global_position - circling_point) < movement_speed * delta:
+				global_position = circling_point
+				pick_new_circling_point()
+				current_state = STATE.LEAVING_ORBIT
+			
 		
 		STATE.ENTERING_ORBIT:
 			animation_player.play("flapping")

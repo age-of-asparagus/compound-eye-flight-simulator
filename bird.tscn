@@ -6,14 +6,13 @@
 [ext_resource type="Texture2D" uid="uid://dyqqj8igt5gn8" path="res://Assets/low_poly_pigeon/textures/material_3_baseColor.png" id="4_axl6x"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_owhn0"]
-size = Vector3(1, 1.68311, 3.41754)
+size = Vector3(0.4, 0.2, 0.6)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_g5k2s"]
 size = Vector3(100, 100, 100)
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_crnqq"]
-height = 10.0
-radius = 1.0
+[sub_resource type="SphereShape3D" id="SphereShape3D_cchwj"]
+radius = 10.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xhaog"]
 resource_name = "material_0"
@@ -313,12 +312,15 @@ _data = {
 
 [node name="bird" type="Node3D"]
 script = ExtResource("1_g5k2s")
+attack_speed = 5.0
+circling_radius = 15.0
+movement_speed = 15.0
 
 [node name="bee_killer" type="Area3D" parent="."]
 collision_layer = 0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="bee_killer"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.341553, 0.11557)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
 shape = SubResource("BoxShape3D_owhn0")
 
 [node name="bee_detector" type="Area3D" parent="."]
@@ -330,8 +332,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 50, 0)
 shape = SubResource("BoxShape3D_g5k2s")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="bee_detector"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
-shape = SubResource("CylinderShape3D_crnqq")
+shape = SubResource("SphereShape3D_cchwj")
 
 [node name="point_picker" type="Timer" parent="."]
 wait_time = 10.0
