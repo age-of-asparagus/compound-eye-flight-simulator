@@ -1,7 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://bcj4lgqmnfd70"]
+[gd_scene load_steps=14 format=3 uid="uid://bcj4lgqmnfd70"]
 
+[ext_resource type="Material" uid="uid://bcp6ulw45hrp" path="res://WaterMaterial.tres" id="1_gbfbk"]
 [ext_resource type="MeshLibrary" uid="uid://heoqmotosp3q" path="res://MeshLibraries/GrassAndBushes.tres" id="1_pkg7o"]
 [ext_resource type="PackedScene" uid="uid://b0r37q1nm8yk6" path="res://Camera/fancy_camera_setup.tscn" id="1_tlwt5"]
+[ext_resource type="Material" uid="uid://hpfepi078saa" path="res://Ground.tres" id="2_ioo17"]
 [ext_resource type="PackedScene" uid="uid://dn44wth4av1cm" path="res://GridMapLevel1.tscn" id="2_pkg7o"]
 [ext_resource type="PackedScene" uid="uid://ydmombs4jus8" path="res://bee.tscn" id="3_tlwt5"]
 [ext_resource type="PackedScene" uid="uid://chd0yi4gyte3j" path="res://Flowers/flower.tscn" id="4_aqk2v"]
@@ -11,7 +13,7 @@
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_fj7yv"]
 sky_top_color = Color(0.0410786, 0.894213, 1, 1)
 sky_horizon_color = Color(0.610605, 0.823889, 0.850335, 1)
-ground_bottom_color = Color(0.384314, 0.666667, 0.239216, 1)
+ground_bottom_color = Color(1.2514e-06, 0.486962, 0.486961, 1)
 ground_horizon_color = Color(0.610605, 0.823889, 0.850335, 1)
 
 [sub_resource type="Sky" id="Sky_tlwt5"]
@@ -24,9 +26,6 @@ ambient_light_source = 2
 ambient_light_color = Color(0.830335, 0.830335, 0.830335, 1)
 reflected_light_source = 2
 tonemap_mode = 2
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pkg7o"]
-albedo_color = Color(0.28816, 0.504521, 0.177943, 1)
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_036b0"]
 viewport_path = NodePath("SubViewport")
@@ -42,14 +41,108 @@ shadow_enabled = true
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_aqk2v")
 
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0.5, -50.5)
+use_collision = true
+collision_layer = 2
+size = Vector3(1000, 1, 1000)
+material = ExtResource("1_gbfbk")
+
 [node name="GroundCSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1, 19)
 calculate_tangents = false
 use_collision = true
 collision_layer = 2
 collision_mask = 0
-size = Vector3(1000, 0.5, 1000)
-material = SubResource("StandardMaterial3D_pkg7o")
+size = Vector3(72, 0.5, 86)
+material = ExtResource("2_ioo17")
+
+[node name="CSGBox3D2Cut" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.5, -0.25, -40)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(37, 2, 10)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut2" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5, -0.25, -41.5)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(9, 2, 13)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut5" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28, -0.25, -28)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(18, 2, 16)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut6" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.5, -0.25, -6)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(9, 2, 30)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut7" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.5, -0.25, 36)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(21, 2, 16)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut11" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.5, -0.25, 36.5)
+use_collision = true
+collision_layer = 2
+size = Vector3(5, 2, 5)
+material = ExtResource("2_ioo17")
+
+[node name="CSGBox3D2Cut8" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5, -0.25, 41.5)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(33, 2, 7)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut9" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23, -0.25, 40.5)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(16, 2, 7)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut10" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26, -0.25, 27.5)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(16, 2, 21)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut3" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31, -0.25, -43)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(12, 2, 42)
+material = ExtResource("1_gbfbk")
+
+[node name="CSGBox3D2Cut4" type="CSGBox3D" parent="GroundCSGBox3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.5, -0.25, 35)
+operation = 2
+use_collision = true
+collision_layer = 2
+size = Vector3(11, 2, 42)
+material = ExtResource("1_gbfbk")
 
 [node name="GridMapBusesAndGrass" type="GridMap" parent="."]
 mesh_library = ExtResource("1_pkg7o")

@@ -19,4 +19,4 @@ func clear_tile_index(target_id: int):
 			gridmap.set_cell_item(cell, -1)
 			count += 1
 
-	print("Cleared", count, "tiles with index", target_id)
+	#print("Cleared", count, "tiles with index", target_id)

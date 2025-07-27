@@ -62,6 +62,7 @@ shape = SubResource("CapsuleShape3D_hoj8b")
 stream = ExtResource("4_hoj8b")
 volume_db = -5.0
 autoplay = true
+playback_type = 1
 parameters/looping = true
 
 [node name="NecterSound" type="AudioStreamPlayer" parent="."]

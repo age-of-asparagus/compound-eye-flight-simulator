@@ -69,12 +69,12 @@ func _physics_process(delta):
 
 		
 		current_state = STATE.ATTACKING
-		print(current_state)
+		#print(current_state)
 		attack_bee(delta)
 		if not audio_wing_flap.playing:
 			audio_wing_flap.play()
 	else:
-		print(current_state)
+		#print(current_state)
 		move_naturally(delta)
 		audio_wing_flap.stop()
 	
@@ -85,7 +85,7 @@ func attack_bee(delta):
 	var displacement_to_bee = (Global.bee_position - global_position).length()
 	bee_attacker.target_position = bee_direction * (displacement_to_bee+15)
 	
-	print(bee_attacker.get_collider())
+	#print(bee_attacker.get_collider())
 	if (bee_attacker.get_collider() == null or "boost_acceleration" in bee_attacker.get_collider().get_parent()) and Global.bee_position.y > 5:
 
 

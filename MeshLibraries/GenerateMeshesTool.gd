@@ -4,14 +4,14 @@ extends Node3D
 @export var make_local := false:
 	set(value):
 		if value:
-			print("Making all instanced scenes local...")
+			#print("Making all instanced scenes local...")
 			_make_all_local()
 			make_local = false  # Reset toggle
 
 func _make_all_local():
 	for child in get_children():
 		if child.scene_file_path != "":
-			print("Localizing:", child.name)
+			#print("Localizing:", child.name)
 			var packed_scene = load(child.scene_file_path)
 			if packed_scene:
 				var instance = packed_scene.instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
