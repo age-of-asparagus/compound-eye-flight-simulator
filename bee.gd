@@ -88,6 +88,6 @@ func _on_hive_detector_area_entered(area: Area3D) -> void:
 	necter_sound.play()
 	Global.points += Global.necter
 	Global.necter = 0
-	
 	if Global.points >= Global.points_max:
+		print("WINNING!ddd")
 		get_tree().change_scene_to_file("res://Menus/win_menu.tscn")

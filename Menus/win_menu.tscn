@@ -1,20 +1,18 @@
-[gd_scene load_steps=7 format=3 uid="uid://m4sacvfhdnjp"]
+[gd_scene load_steps=6 format=3 uid="uid://m4sacvfhdnjp"]
 
-[ext_resource type="Script" uid="uid://eun22o8lgu3k" path="res://Menus/settings_menu.gd" id="1_2cgh4"]
 [ext_resource type="Texture2D" uid="uid://bfxakykrxuv8l" path="res://Assets/background.png" id="2_w101e"]
 [ext_resource type="PackedScene" uid="uid://c33cnflued084" path="res://Menus/button_load_scene.tscn" id="3_px3cc"]
 [ext_resource type="PackedScene" uid="uid://datosexhdbjj2" path="res://Menus/TitlePanel.tscn" id="3_w101e"]
 [ext_resource type="PackedScene" uid="uid://dmw1q1asg0qrw" path="res://Menus/banner.tscn" id="5_px3cc"]
 [ext_resource type="PackedScene" uid="uid://dvb7sq1wavcrg" path="res://Menus/CreatedPanel.tscn" id="5_wsgfg"]
 
-[node name="SettingsMenu" type="Control"]
+[node name="WinMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_2cgh4")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 self_modulate = Color(1, 1, 1, 0.501961)

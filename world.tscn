@@ -26,7 +26,7 @@ reflected_light_source = 2
 tonemap_mode = 2
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pkg7o"]
-albedo_color = Color(0.384314, 0.666667, 0.239216, 1)
+albedo_color = Color(0.28816, 0.504521, 0.177943, 1)
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_036b0"]
 viewport_path = NodePath("SubViewport")
