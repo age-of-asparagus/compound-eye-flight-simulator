@@ -1,10 +1,10 @@
 [gd_resource type="MeshLibrary" load_steps=1102 format=4 uid="uid://gso5g4l33lto"]
 
-[ext_resource type="Texture2D" uid="uid://djnpqndtglfgp" path="res://Assets/KayKitForestExtras/Assets/gltf/Color1/forest_texture.png" id="1_la3i0"]
+[ext_resource type="Texture2D" uid="uid://djnpqndtglfgp" path="res://Assets/KayKitForestExtras/Assets/gltf/Color1/forest_texture.png" id="1_ac3ut"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_636ki"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_armgk"]
@@ -55,7 +55,7 @@ image = SubResource("Image_la3i0")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sejsr"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_bdj8r"]
@@ -106,7 +106,7 @@ image = SubResource("Image_qkpwq")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fwxp1"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_y2jha"]
@@ -157,7 +157,7 @@ image = SubResource("Image_qkkqx")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_di1qa"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_yetn6"]
@@ -211,7 +211,7 @@ data = PackedVector3Array(0.167, 0.2969, -0.1771, -0.0987, 0.5153, -0.3066, -0.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bf05r"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_loou2"]
@@ -265,7 +265,7 @@ data = PackedVector3Array(0.2935, 0, 0.1744, 0.2585, 0.2969, -0.2363, 0.2585, 0,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfrmx"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_57m7v"]
@@ -319,7 +319,7 @@ data = PackedVector3Array(-0.0452, 0.5388, 0.3669, 0.2112, 0.885, 0.2417, 0.2112
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hl15m"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_v3po5"]
@@ -373,7 +373,7 @@ data = PackedVector3Array(-0.1731, 0.5388, 0.2998, 0.1731, 0.885, 0.2998, 0.1731
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i6wh7"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ahgoi"]
@@ -427,7 +427,7 @@ data = PackedVector3Array(0.1731, 0.5388, 0.2998, 0.3462, 0.885, 0, 0.3462, 0.53
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kv6ma"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_puu12"]
@@ -481,7 +481,7 @@ data = PackedVector3Array(-0.8528, 1.4356, 0.4751, -1.0827, 1.4356, -0.4507, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ftmfj"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_uswuo"]
@@ -535,7 +535,7 @@ data = PackedVector3Array(0.2458, 1.4356, -0.5933, 0.2966, 1.4356, -0.716, 0.766
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_chral"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_kebsb"]
@@ -589,7 +589,7 @@ data = PackedVector3Array(0.5545, 0.8849, 0.3354, 0.7237, 1.4356, -0.3209, 0.723
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ergko"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_2eui7"]
@@ -643,7 +643,7 @@ data = PackedVector3Array(-0.8916, 1.7227, -1.0722, -0.8872, 1.7227, -1.2824, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1o6mj"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_mr4c1"]
@@ -697,7 +697,7 @@ data = PackedVector3Array(-0.5901, 1.2189, 1.0474, 0.3139, 1.9774, 1.2804, 0.313
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mo7ob"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_igogw"]
@@ -748,7 +748,7 @@ image = SubResource("Image_lmd5s")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mi00l"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_n1lvw"]
@@ -802,7 +802,7 @@ data = PackedVector3Array(-0.288, 1.7227, -1.2563, -0.2107, 1.7227, -1.461, 0.50
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7qbr0"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_706xb"]
@@ -856,7 +856,7 @@ data = PackedVector3Array(-1.437, 1.7227, 0.5045, -1.7883, 1.7227, -0.9101, -1.5
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2okdx"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_4ocur"]
@@ -910,7 +910,7 @@ data = PackedVector3Array(-0.0438, 2.1905, -1.3537, 1.0682, 2.1905, -1.082, 0.89
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5d8pt"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_vjjef"]
@@ -964,7 +964,7 @@ data = PackedVector3Array(0.8172, 1.9774, 0.3385, 0.9862, 1.9774, 0.4085, 0.437,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xo3tt"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_x38h8"]
@@ -1018,7 +1018,7 @@ data = PackedVector3Array(-0.0799, 1.9903, -0.7158, -0.0189, 1.9903, -0.863, 0.5
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1qe03"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_v5dw7"]
@@ -1072,7 +1072,7 @@ data = PackedVector3Array(-1.0861, 2.0755, -0.6468, -0.2347, 2.0755, -1.412, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hq2n0"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_t4f38"]
@@ -1124,7 +1124,7 @@ data = PackedVector3Array(0.1078, 0, 0.1078, -0.0754, 0.2156, 0.0754, 0.0754, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l8pwv"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_5dh01"]
@@ -1178,7 +1178,7 @@ data = PackedVector3Array(0.315, 0.0595, -0.2545, 0.2466, 0.5861, 0.1861, 0.2466
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ivbmf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_1rcy8"]
@@ -1232,7 +1232,7 @@ data = PackedVector3Array(0.6477, 0.119, -0.5266, 0.5062, 1.2072, 0.3852, 0.5062
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bd4jt"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_c3l11"]
@@ -1286,7 +1286,7 @@ data = PackedVector3Array(0.8544, 0.1191, -0.7334, 0.6592, 1.6208, 0.5382, 0.659
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qwwrk"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_6eq8f"]
@@ -1337,7 +1337,7 @@ image = SubResource("Image_haq52")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hsol2"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_q58d3"]
@@ -1391,7 +1391,7 @@ data = PackedVector3Array(1.3711, 0.1488, -0.3181, 0.4189, 2.026, 0.9778, 1.0419
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_14cyf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_fi1rv"]
@@ -1445,7 +1445,7 @@ data = PackedVector3Array(1.3767, 0.1488, 0.2932, -0.0352, 2.026, 1.0632, 1.0346
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iro78"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_tihk0"]
@@ -1499,7 +1499,7 @@ data = PackedVector3Array(1.342, 0.1488, -0.4246, 0.4943, 2.026, 0.9419, 1.0218,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0acgn"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_i6h2c"]
@@ -1553,7 +1553,7 @@ data = PackedVector3Array(1.3496, 0.1488, 0.3997, -0.1179, 2.026, 1.0572, 1.0122
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wmy53"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_erfv7"]
@@ -1607,7 +1607,7 @@ data = PackedVector3Array(0.0813, 0.1507, 0.3926, 0.1086, 0.3274, 0.351, 0.2716,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7p6s8"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_sjgui"]
@@ -1661,7 +1661,7 @@ data = PackedVector3Array(-0.2393, 0.5015, -0.1618, -0.3196, 0.4087, -0.0564, -0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ovhq5"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_hhxlr"]
@@ -1715,7 +1715,7 @@ data = PackedVector3Array(0.2645, 0.281, 0.2532, 0.1128, 0.268, 0.3807, 0.0789, 
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mb4um"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_31afh"]
@@ -1769,7 +1769,7 @@ data = PackedVector3Array(0.201, 0.1709, 0.3659, -0.023, -0.0112, 0.3877, -0.002
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1s0n5"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_7sxl4"]
@@ -1823,7 +1823,7 @@ data = PackedVector3Array(-0.2593, -0.5681, 0.3098, -0.4082, -0.4015, 0.3427, -0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yurc3"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_5h6wq"]
@@ -1877,7 +1877,7 @@ data = PackedVector3Array(0.2224, -0.494, 0.0526, 0.1854, -0.3224, 0.3054, 0.384
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xjkkh"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_m4b3l"]
@@ -1928,7 +1928,7 @@ image = SubResource("Image_ck13e")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ps25r"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_abdp4"]
@@ -1982,7 +1982,7 @@ data = PackedVector3Array(0.0781, -0.8499, 0.0322, 0.4955, -0.7174, 0.0075, 0.36
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2tsgc"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ir7fd"]
@@ -2036,7 +2036,7 @@ data = PackedVector3Array(0.3566, -0.853, -0.075, 0.189, -0.9096, -0.2962, 0.021
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8l3am"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_yoxlt"]
@@ -2090,7 +2090,7 @@ data = PackedVector3Array(-0.1823, 0.3272, 0.9387, 0.0103, 0.4923, 0.8541, 0.069
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ysb6f"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_dbjxc"]
@@ -2144,7 +2144,7 @@ data = PackedVector3Array(0.1847, 0.9076, 0.2969, 0.5825, 0.8059, 0.1838, 0.5618
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3gdm6"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_mcj8f"]
@@ -2198,7 +2198,7 @@ data = PackedVector3Array(0.598, -0.6618, -0.0833, 0.3029, -0.7091, -0.5278, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gjqd7"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_sh0so"]
@@ -2252,7 +2252,7 @@ data = PackedVector3Array(-1.0565, -0.7182, -0.2975, -1.383, -0.7, 0.2152, -1.05
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2uc0l"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_jrqw1"]
@@ -2306,7 +2306,7 @@ data = PackedVector3Array(-0.0236, -1.5871, 0.0748, -0.1043, -1.5728, 0.3573, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h6q2i"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_yyvff"]
@@ -2360,7 +2360,7 @@ data = PackedVector3Array(0.7554, 0.6176, -1.3319, 0.6443, 0.8567, -1.2719, 0.44
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ffu6y"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ehy7b"]
@@ -2414,7 +2414,7 @@ data = PackedVector3Array(-0.1112, -1.3992, 0.0593, -0.1974, -1.3539, 0.3442, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mde3j"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_cu334"]
@@ -2468,7 +2468,7 @@ data = PackedVector3Array(0.7614, 0.6625, -1.2977, 0.6417, 0.8922, -1.3124, 0.45
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p7xv0"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_rhu47"]
@@ -2519,7 +2519,7 @@ image = SubResource("Image_1xsb3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qdha5"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_enqsb"]
@@ -2573,7 +2573,7 @@ data = PackedVector3Array(-0.1266, -1.2589, 0.0751, -0.2537, -1.3863, 0.6507, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uqnm7"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_05cwr"]
@@ -2627,7 +2627,7 @@ data = PackedVector3Array(0.0243, -1.6019, 0.079, -0.187, -1.6273, 0.6546, 0.382
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hy60v"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3ie5l"]
@@ -2679,7 +2679,7 @@ data = PackedVector3Array(0.1917, 0, 0, 0, 0.6187, 0.1342, 0.1342, 0.7499, 0, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_02ohm"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_oqtt6"]
@@ -2733,7 +2733,7 @@ data = PackedVector3Array(0.0425, 0.0536, -0.2381, 0.1512, 1.7546, -0.034, 0.039
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tm8ym"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_nskh6"]
@@ -2787,7 +2787,7 @@ data = PackedVector3Array(0.1047, 0.132, -0.4702, 0.3005, 2.6183, -0.085, 0.0971
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tgtfm"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_arw4t"]
@@ -2841,7 +2841,7 @@ data = PackedVector3Array(0.1051, 0.1324, -0.6444, 0.4162, 3.1488, -0.085, 0.097
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dwc51"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_7yxwc"]
@@ -2895,7 +2895,7 @@ data = PackedVector3Array(0.2446, 0.12, -0.6123, 0.4123, 2.5169, 0.0015, 0.1802,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_820ip"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_o1imx"]
@@ -2949,7 +2949,7 @@ data = PackedVector3Array(0.0193, 0.1253, -0.6498, 0.4054, 2.2695, -0.1271, 0.04
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d60oq"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_bp36c"]
@@ -3003,7 +3003,7 @@ data = PackedVector3Array(0.6576, 0.1095, -0.0962, 0.1763, 2.7874, 0.3644, 0.414
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vvjsr"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_l5kwg"]
@@ -3057,7 +3057,7 @@ data = PackedVector3Array(0.1459, 0.1216, -0.6372, 0.4134, 3.4161, -0.0574, 0.12
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fhw8r"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_pdj7o"]
@@ -3108,7 +3108,7 @@ image = SubResource("Image_3rwrb")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xvsrx"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_758uk"]
@@ -3162,7 +3162,7 @@ data = PackedVector3Array(-0.069, -0.001, 0.0689, -0.069, 0.0679, 0, -0.0566, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lhc8c"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_km4u3"]
@@ -3216,7 +3216,7 @@ data = PackedVector3Array(0.1668, 0.0849, -0.0691, 0.1578, 0.0276, 0.0654, 0.166
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n6jtc"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_eboih"]
@@ -3270,7 +3270,7 @@ data = PackedVector3Array(0.1151, 0.008, -0.2779, 0, 0, 0, 0.2127, 0.008, -0.212
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qp568"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_yaiux"]
@@ -3324,7 +3324,7 @@ data = PackedVector3Array(0.1512, 0.0105, -0.365, 0, 0, 0, 0.2793, 0.0105, -0.27
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sg252"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_tjx1a"]
@@ -3378,7 +3378,7 @@ data = PackedVector3Array(-0.3042, -0.013, 0.2521, 0, -0.0235, 0, -0.3775, -0.01
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6bo46"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_mcoh1"]
@@ -3432,7 +3432,7 @@ data = PackedVector3Array(-0.392, -0.013, 0.0488, 0, -0.0235, 0, -0.3809, -0.013
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7xbcf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gpwy6"]
@@ -3486,7 +3486,7 @@ data = PackedVector3Array(-0.3188, -0.0047, 0.2333, 0, -0.0153, 0, -0.3838, -0.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l0qjp"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ntf2p"]
@@ -3540,7 +3540,7 @@ data = PackedVector3Array(0.1822, 0.0002, -0.4397, 0, -0.0125, 0, 0.3366, 0.0002
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_saoga"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_rx7ju"]
@@ -3594,7 +3594,7 @@ data = PackedVector3Array(0, 0.0612, 0.1115, -0.0827, 0.1487, 0.0827, 0, 0.149, 
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a4cft"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_60vwi"]
@@ -3648,7 +3648,7 @@ data = PackedVector3Array(-0.1605, 0.5523, 0.0831, -0.2055, 0.4896, -0.0892, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_neh82"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_2qwlu"]
@@ -3699,7 +3699,7 @@ image = SubResource("Image_m5x3p")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mv1jd"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_neslr"]
@@ -3753,7 +3753,7 @@ data = PackedVector3Array(0.2442, 0.5498, 0.2442, 0.0954, 0.7895, 0.2746, 0.2069
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uiphk"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3nb7g"]
@@ -3807,7 +3807,7 @@ data = PackedVector3Array(0.1418, 1.3128, 0.3732, -0.1588, 1.113, 0.4203, -0.141
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6t8ks"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_4n6fx"]
@@ -3861,7 +3861,7 @@ data = PackedVector3Array(-0.5258, 1.7103, -0.0828, -0.3814, 1.444, -0.462, -0.3
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uwdpo"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ybldl"]
@@ -3915,7 +3915,7 @@ data = PackedVector3Array(-0.3337, 1.6858, 0.4148, -0.5905, 1.4195, 0.1007, -0.5
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dd2l6"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3lafi"]
@@ -3969,7 +3969,7 @@ data = PackedVector3Array(-0.5214, 1.6858, 0.1075, -0.5195, 1.4195, -0.2983, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p2rbf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_scl6d"]
@@ -4023,7 +4023,7 @@ data = PackedVector3Array(-0.645, 1.5358, 0.245, -0.7263, 1.3043, -0.2744, -0.64
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hqqlt"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_urk6d"]
@@ -4077,7 +4077,7 @@ data = PackedVector3Array(-0.1302, 0.8915, -0.0856, -0.0574, 1.0707, 0.0682, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nri34"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_p72hx"]
@@ -4131,7 +4131,7 @@ data = PackedVector3Array(-0.1347, 0.9496, -0.0893, -0.0594, 1.1404, 0.0711, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sf7k5"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_kfekw"]
@@ -4185,7 +4185,7 @@ data = PackedVector3Array(-0.5675, 1.672, -0.1207, -0.4774, 1.9678, -0.0006, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s3ku1"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ijg56"]
@@ -4236,7 +4236,7 @@ image = SubResource("Image_66em3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g1qte"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_hc401"]
@@ -4287,7 +4287,7 @@ image = SubResource("Image_w3f2l")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ijwoo"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_80s54"]
@@ -4338,7 +4338,7 @@ image = SubResource("Image_5x8hq")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_didp6"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_8vo8d"]
@@ -4389,7 +4389,7 @@ image = SubResource("Image_27cte")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_koees"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ealyo"]
@@ -4440,7 +4440,7 @@ image = SubResource("Image_i52m8")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o60hh"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_jmgpa"]
@@ -4491,7 +4491,7 @@ image = SubResource("Image_645g5")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o6xah"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_efoym"]
@@ -4542,7 +4542,7 @@ image = SubResource("Image_lpyi1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ghxvf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_212c1"]
@@ -4593,7 +4593,7 @@ image = SubResource("Image_jkkgm")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_on2j3"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_kbgjd"]
@@ -4644,7 +4644,7 @@ image = SubResource("Image_pj00r")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fothk"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_we232"]
@@ -4695,7 +4695,7 @@ image = SubResource("Image_ujd60")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0ww6n"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_q0tp8"]
@@ -4746,7 +4746,7 @@ image = SubResource("Image_4cjpc")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gh1my"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_sugdk"]
@@ -4800,7 +4800,7 @@ data = PackedVector3Array(-0.1079, 0.011, 0.2589, -0.2244, 0.3853, 0.0924, -0.09
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rvjg5"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_udo27"]
@@ -4851,7 +4851,7 @@ image = SubResource("Image_o1lpm")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4m6om"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3yj3w"]
@@ -4905,7 +4905,7 @@ data = PackedVector3Array(-0.1795, 0.5602, -0.1023, 0.0435, -0.0711, -0.2504, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3eaj0"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3q0e1"]
@@ -4959,7 +4959,7 @@ data = PackedVector3Array(-0.2665, 0.8318, -0.152, 0.0646, -0.1055, -0.3718, 0.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b2sdd"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_nlrmm"]
@@ -5013,7 +5013,7 @@ data = PackedVector3Array(-0.0011, -0.1069, -0.4412, 0.1447, 0.8248, -0.3278, -0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2rxah"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_k3rx7"]
@@ -5067,7 +5067,7 @@ data = PackedVector3Array(-0.1795, 0.5602, -0.1023, 0.0435, -0.0711, -0.2504, 0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2wdlu"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_k1bby"]
@@ -5121,7 +5121,7 @@ data = PackedVector3Array(-0.0002, -0.1069, 0.3774, 0.1248, 0.8247, 0.2802, 0.18
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2mcyp"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_cc4m1"]
@@ -5175,7 +5175,7 @@ data = PackedVector3Array(-0.0011, -0.1071, -0.4412, 0.1447, 0.8248, -0.3278, -0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vlk3u"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_2vfs6"]
@@ -5229,7 +5229,7 @@ data = PackedVector3Array(0.06, 0.6294, -0.1624, 0.0959, 1.3182, -0.0461, 0.0321
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sfrvt"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_1ux6l"]
@@ -5283,7 +5283,7 @@ data = PackedVector3Array(-0.0733, 0.7593, -0.1661, 0.0368, 1.2973, -0.1211, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dh6hf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_fpdnx"]
@@ -5337,7 +5337,7 @@ data = PackedVector3Array(-0.0861, -0.1523, -0.2092, 0.0752, 0.1228, -0.1828, -0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ojo1"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_xm3o6"]
@@ -5391,7 +5391,7 @@ data = PackedVector3Array(0.1778, 0.7164, -0.0773, 0.1158, 1.4328, 0.0528, 0.115
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vv0lv"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_tn5pg"]
@@ -5442,7 +5442,7 @@ image = SubResource("Image_4jenh")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aw253"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_smhhl"]
@@ -5496,7 +5496,7 @@ data = PackedVector3Array(0.2042, 0.7418, -0.0864, 0.1337, 1.4836, 0.059, 0.1337
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k4om2"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ljfm0"]
@@ -5550,7 +5550,7 @@ data = PackedVector3Array(0.0998, -0.1789, -0.2436, 0.2076, 0.1754, -0.0869, 0.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3rlw"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_k3wy8"]
@@ -5604,7 +5604,7 @@ data = PackedVector3Array(-0.1302, 0.8915, -0.0856, -0.0574, 1.0707, 0.0682, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bergi"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gih2g"]
@@ -5658,7 +5658,7 @@ data = PackedVector3Array(-0.1347, 0.9496, -0.0893, -0.0594, 1.1404, 0.0711, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bo6gj"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_rqahv"]
@@ -5712,7 +5712,7 @@ data = PackedVector3Array(-0.5675, 1.672, -0.1207, -0.4774, 1.9678, -0.0006, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_toiho"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gtqkb"]
@@ -5766,7 +5766,7 @@ data = PackedVector3Array(0.1513, 0.6098, -0.0658, 0.0986, 1.2196, 0.045, 0.0986
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rcfs4"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_84rth"]
@@ -5820,7 +5820,7 @@ data = PackedVector3Array(0.1739, 0.6314, -0.0735, 0.1138, 1.2628, 0.0502, 0.113
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ybjdk"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_it6ky"]
@@ -5874,7 +5874,7 @@ data = PackedVector3Array(0.0849, -0.1523, -0.2073, 0.1767, 0.1493, -0.074, 0.07
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dch07"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3wnmx"]
@@ -5925,7 +5925,7 @@ image = SubResource("Image_qd3hx")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mepd"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_h0po3"]
@@ -5976,7 +5976,7 @@ image = SubResource("Image_6opg6")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i4bq2"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_r2ss7"]
@@ -6027,7 +6027,7 @@ image = SubResource("Image_7a444")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_20jyp"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_jlsd5"]
@@ -6078,7 +6078,7 @@ image = SubResource("Image_7c1af")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hrl1b"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_s4cdw"]
@@ -6129,7 +6129,7 @@ image = SubResource("Image_1sixn")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u8nbv"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_5af2g"]
@@ -6180,7 +6180,7 @@ image = SubResource("Image_v7hpx")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a1yxy"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_y8ojy"]
@@ -6231,7 +6231,7 @@ image = SubResource("Image_ergil")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7lrfc"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_vpvf3"]
@@ -6282,7 +6282,7 @@ image = SubResource("Image_0ujft")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ivv4y"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_qphm4"]
@@ -6333,7 +6333,7 @@ image = SubResource("Image_d2nh3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ru3wm"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gs3rd"]
@@ -6384,7 +6384,7 @@ image = SubResource("Image_5bqed")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y6xds"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_rsiq2"]
@@ -6435,7 +6435,7 @@ image = SubResource("Image_euui2")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tsda2"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_di81u"]
@@ -6486,7 +6486,7 @@ image = SubResource("Image_3v24g")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ltieu"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_37jyb"]
@@ -6537,7 +6537,7 @@ image = SubResource("Image_kra2e")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lmc7r"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_6obcq"]
@@ -6588,7 +6588,7 @@ image = SubResource("Image_edai1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6xv7q"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ixe7k"]
@@ -6639,7 +6639,7 @@ image = SubResource("Image_g73fj")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_es7ix"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_j26ta"]
@@ -6690,7 +6690,7 @@ image = SubResource("Image_qmfi5")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gmrbo"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_dwxip"]
@@ -6741,7 +6741,7 @@ image = SubResource("Image_33icl")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q4spf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_bas4o"]
@@ -6792,7 +6792,7 @@ image = SubResource("Image_4mmjv")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t567k"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_tmmlr"]
@@ -6843,7 +6843,7 @@ image = SubResource("Image_nu670")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_byv1w"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_l5lfe"]
@@ -6894,7 +6894,7 @@ image = SubResource("Image_cprby")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3plu8"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_tujqy"]
@@ -6948,7 +6948,7 @@ data = PackedVector3Array(0.38, 1.3, 0.95, -0.475, 1.7, 0.95, 0.38, 1.7, 0.95, 0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6eqmg"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_b7s0y"]
@@ -7002,7 +7002,7 @@ data = PackedVector3Array(0.38, 3, 0.95, -0.475, 3.7, 0.95, 0.38, 3.7, 0.95, 0.3
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_632o6"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_dadwh"]
@@ -7053,7 +7053,7 @@ image = SubResource("Image_gixpq")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2xk8e"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_c5hys"]
@@ -7107,7 +7107,7 @@ data = PackedVector3Array(-0.95, 5.2, 0.38, -0.475, 3, 0.95, -0.95, 3, 0.38, -0.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wfovt"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_yftw5"]
@@ -7161,7 +7161,7 @@ data = PackedVector3Array(1.9, 1.4, -0.425, 2, 1.7, 0.25, 1.9, 1.7, -0.425, 1.9,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nl1qt"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_bnup2"]
@@ -7215,7 +7215,7 @@ data = PackedVector3Array(-1.9, 1.4, 0.425, -1.6806, 1.8, -0.3341, -1.6806, 1.6,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6yhrm"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_wukxx"]
@@ -7269,7 +7269,7 @@ data = PackedVector3Array(-1.3341, 1.9, -0.6806, -0.75, 3, -1, -1.425, 3, -0.9, 
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m757r"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_jh1ou"]
@@ -7323,7 +7323,7 @@ data = PackedVector3Array(1.9, 1.4, -1.425, 2, 1.7, -0.75, 1.9, 1.7, -1.425, 1.9
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1t5qd"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_h10bt"]
@@ -7377,7 +7377,7 @@ data = PackedVector3Array(1.9, 3, -1.425, 2, 3.7, -0.75, 1.9, 3.7, -1.425, 1.9, 
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r6kx3"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_i3gn4"]
@@ -7431,7 +7431,7 @@ data = PackedVector3Array(-1.3341, 1.9, -1.6806, -0.75, 3, -2, -1.425, 3, -1.9, 
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jyfms"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_kewss"]
@@ -7485,7 +7485,7 @@ data = PackedVector3Array(0, 1.5, 2, -1, 1.7, 1.5, 0, 1.7, 2, 0, 1.5, 2, -1, 1.2
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_popcf"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_pmo1y"]
@@ -7539,7 +7539,7 @@ data = PackedVector3Array(0, 3, 2, -1, 3.7, 1.5, 0, 3.7, 2, 0, 3, 2, -1, 3, 1.5,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b4cry"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_hj7un"]
@@ -7593,7 +7593,7 @@ data = PackedVector3Array(-3.2341, 1.8, -1.5806, -2.5, 3, -2, -3.325, 3, -1.8, -
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_or5nh"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_68bak"]
@@ -7644,7 +7644,7 @@ image = SubResource("Image_yk3rt")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cc5hu"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_n3blg"]
@@ -7698,7 +7698,7 @@ data = PackedVector3Array(0, 1.5, 4, -1, 1.7, 3.5, 0, 1.7, 4, 0, 1.5, 4, -1, 1.2
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ec5sv"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_b1e6u"]
@@ -7752,7 +7752,7 @@ data = PackedVector3Array(0, 3, 4, -1, 3.7, 3.5, 0, 3.7, 4, 0, 3, 4, -1, 3, 3.5,
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ctkee"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_oe2s5"]
@@ -7806,7 +7806,7 @@ data = PackedVector3Array(-3.2341, 1.8, -3.5806, -2.5, 3, -4, -3.325, 3, -3.8, -
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gpsyv"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ob0pp"]
@@ -7860,7 +7860,7 @@ data = PackedVector3Array(-1.8333, 1.2, 3, -2.9167, 1.7, 2.5, -1.8333, 1.7, 3, -
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mheyg"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_vd3f1"]
@@ -7914,7 +7914,7 @@ data = PackedVector3Array(-1.8333, 3, 3, -2.9167, 3.7, 2.5, -1.8333, 3.7, 3, -1.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a6dxq"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_yvpn0"]
@@ -7968,7 +7968,7 @@ data = PackedVector3Array(-5.2692, 1.6, -2.6248, -4.6167, 3, -3, -5.3625, 3, -2.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3vxek"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_6clpu"]
@@ -8022,7 +8022,7 @@ data = PackedVector3Array(-1.8333, 1.2, 6, -2.9167, 1.7, 5.5, -1.8333, 1.7, 6, -
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5y7tr"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_6y4ln"]
@@ -8076,7 +8076,7 @@ data = PackedVector3Array(-1.8333, 3, 6, -2.9167, 3.7, 5.5, -1.8333, 3.7, 6, -1.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vg0o1"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_f5eli"]
@@ -8130,7 +8130,7 @@ data = PackedVector3Array(-5.2692, 1.6, -5.6248, -4.6167, 3, -6, -5.3625, 3, -5.
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plqrv"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_8b7na"]
@@ -8181,7 +8181,7 @@ image = SubResource("Image_x6qeu")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_frufw"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3g6g0"]
@@ -8232,7 +8232,7 @@ image = SubResource("Image_v14yk")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wh8fd"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gy0mb"]
@@ -8283,7 +8283,7 @@ image = SubResource("Image_jd81c")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_anqn1"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_5qmet"]
@@ -8334,7 +8334,7 @@ image = SubResource("Image_shn5y")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kn4ck"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_h5d4v"]
@@ -8385,7 +8385,7 @@ image = SubResource("Image_cbvvr")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8u8di"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ebbtd"]
@@ -8436,7 +8436,7 @@ image = SubResource("Image_f3d3a")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b041j"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_nh6y6"]
@@ -8487,7 +8487,7 @@ image = SubResource("Image_v0lsj")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pjjux"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_kvgrq"]
@@ -8538,7 +8538,7 @@ image = SubResource("Image_l06k8")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3vqln"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_2hhxj"]
@@ -8589,7 +8589,7 @@ image = SubResource("Image_ownbh")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mdo16"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_aio6k"]
@@ -8640,7 +8640,7 @@ image = SubResource("Image_wb3jp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vpp71"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_qyx7w"]
@@ -8691,7 +8691,7 @@ image = SubResource("Image_knqrl")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_diue5"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_h3n15"]
@@ -8742,7 +8742,7 @@ image = SubResource("Image_c3rsw")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i70a2"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_gvcio"]
@@ -8793,7 +8793,7 @@ image = SubResource("Image_qdht4")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k01o1"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_hkrmn"]
@@ -8844,7 +8844,7 @@ image = SubResource("Image_rq4gx")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dkm6e"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_smdd2"]
@@ -8895,7 +8895,7 @@ image = SubResource("Image_m6j6h")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p4epn"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_pr3qu"]
@@ -8946,7 +8946,7 @@ image = SubResource("Image_rcx6y")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pcfdb"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_d3snb"]
@@ -8997,7 +8997,7 @@ image = SubResource("Image_6o4ij")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tpcgi"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_rk4jb"]
@@ -9048,7 +9048,7 @@ image = SubResource("Image_jadh3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xvkd4"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ocxrx"]
@@ -9099,7 +9099,7 @@ image = SubResource("Image_h0b3p")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h6me8"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_11of6"]
@@ -9150,7 +9150,7 @@ image = SubResource("Image_kxsq0")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_enh6p"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_165h0"]
@@ -9201,7 +9201,7 @@ image = SubResource("Image_qbaqs")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7pq8v"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_37y6b"]
@@ -9252,7 +9252,7 @@ image = SubResource("Image_yvra6")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rvevl"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_kw6cr"]
@@ -9303,7 +9303,7 @@ image = SubResource("Image_05epj")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_88fxm"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_b8x2k"]
@@ -9354,7 +9354,7 @@ image = SubResource("Image_0xxru")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eua62"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_47sa0"]
@@ -9405,7 +9405,7 @@ image = SubResource("Image_314sa")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_84pro"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_g1ktx"]
@@ -9456,7 +9456,7 @@ image = SubResource("Image_ncuj4")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hhqjm"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_bodav"]
@@ -9507,7 +9507,7 @@ image = SubResource("Image_2pux3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0o0dh"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_2y16k"]
@@ -9558,7 +9558,7 @@ image = SubResource("Image_jqduy")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ycrd7"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_3vut0"]
@@ -9609,7 +9609,7 @@ image = SubResource("Image_vlsx2")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sjsel"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_u7re2"]
@@ -9660,7 +9660,7 @@ image = SubResource("Image_rq6bq")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k18r3"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_hwmh4"]
@@ -9711,7 +9711,7 @@ image = SubResource("Image_xpjxf")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_un8g1"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_oeeet"]
@@ -9762,7 +9762,7 @@ image = SubResource("Image_45vqt")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jn2fw"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_1jpcp"]
@@ -9813,7 +9813,7 @@ image = SubResource("Image_4n6e7")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hsahn"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_1hkrk"]
@@ -9864,7 +9864,7 @@ image = SubResource("Image_v2iam")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yar26"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_7x7dd"]
@@ -9915,7 +9915,7 @@ image = SubResource("Image_1tkno")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_trr1q"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_pbtht"]
@@ -9966,7 +9966,7 @@ image = SubResource("Image_5sp0v")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wdr25"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_vd1br"]
@@ -10017,7 +10017,7 @@ image = SubResource("Image_lnbd1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ung70"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_ovpm4"]
@@ -10068,7 +10068,7 @@ image = SubResource("Image_7kotd")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xfkfd"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_lvm8a"]
@@ -10119,7 +10119,7 @@ image = SubResource("Image_ikryq")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mr157"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_cx5h8"]
@@ -10170,7 +10170,7 @@ image = SubResource("Image_812m8")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_84qqx"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_8yp8d"]
@@ -10221,7 +10221,7 @@ image = SubResource("Image_2dtl1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ry52"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_u0njs"]
@@ -10272,7 +10272,7 @@ image = SubResource("Image_y4sjl")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b3i7y"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_qld12"]
@@ -10323,7 +10323,7 @@ image = SubResource("Image_rdyho")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lbnot"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_sl5v8"]
@@ -10374,7 +10374,7 @@ image = SubResource("Image_tm7bx")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ojcs2"]
 resource_name = "forest"
-albedo_texture = ExtResource("1_la3i0")
+albedo_texture = ExtResource("1_ac3ut")
 roughness = 0.6
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_jekdu"]
