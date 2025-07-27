@@ -1,6 +1,7 @@
 extends CharacterBody3D
 @onready var audio_buzz: AudioStreamPlayer = $AudioStreamPlayer
 @onready var background_audio: AudioStreamPlayer = $BackgroundAudioStreamPlayer
+@onready var necter_sound: AudioStreamPlayer = $NecterSound
 
 @export var boost_acceleration : float
 @export var forward_acceleration : float
@@ -77,12 +78,14 @@ func _on_crash_detector_body_entered(body):
 
 func _on_flower_detector_area_entered(area):
 	if Global.necter < Global.necter_max:
+		necter_sound.play()
 		var flower : Flower = area.get_parent()
 		flower.used_up()
 		Global.necter += 25
 
 
 func _on_hive_detector_area_entered(area: Area3D) -> void:
+	necter_sound.play()
 	Global.points += Global.necter
 	Global.necter = 0
 	

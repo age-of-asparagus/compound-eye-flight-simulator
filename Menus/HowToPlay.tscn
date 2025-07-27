@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bf33w2cy0n0eo" path="res://Menus/MenuTitle.tscn" id="7_olwux"]
 [ext_resource type="Theme" uid="uid://bvnm8v6xvb2nf" path="res://Menus/Theme/Check.tres" id="8_38o71"]
 
-[node name="CreditsMenu" type="Control"]
+[node name="HowToPlay" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
