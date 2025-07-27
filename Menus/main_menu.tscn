@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://djast7sa0hjlo"]
+[gd_scene load_steps=7 format=3 uid="uid://djast7sa0hjlo"]
 
 [ext_resource type="Texture2D" uid="uid://bfxakykrxuv8l" path="res://Assets/background.png" id="1_p3jrs"]
 [ext_resource type="PackedScene" uid="uid://c33cnflued084" path="res://Menus/button_load_scene.tscn" id="2_11gta"]
 [ext_resource type="Texture2D" uid="uid://xypw7vvq8hgb" path="res://Assets/bee_low_poly/bee.png" id="2_at0u2"]
 [ext_resource type="PackedScene" uid="uid://datosexhdbjj2" path="res://Menus/TitlePanel.tscn" id="2_cxdly"]
 [ext_resource type="PackedScene" uid="uid://dvb7sq1wavcrg" path="res://Menus/CreatedPanel.tscn" id="4_cxdly"]
+[ext_resource type="PackedScene" uid="uid://47iyxlsf6dsf" path="res://Menus/background_bzzzz.tscn" id="6_vxn86"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -84,3 +85,5 @@ size_flags_horizontal = 3
 [node name="TextureRect" type="TextureRect" parent="MarginContainer/HBoxContainer/CenterContainer"]
 layout_mode = 2
 texture = ExtResource("2_at0u2")
+
+[node name="BackgroundBzzzz" parent="." instance=ExtResource("6_vxn86")]

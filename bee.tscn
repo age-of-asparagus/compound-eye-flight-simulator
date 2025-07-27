@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://ydmombs4jus8"]
+[gd_scene load_steps=6 format=3 uid="uid://ydmombs4jus8"]
 
 [ext_resource type="Script" uid="uid://dblbge14rfbxn" path="res://bee.gd" id="1_xww1r"]
 [ext_resource type="PackedScene" uid="uid://dkaqfga0ld3c" path="res://Assets/bee_low_poly/scene.gltf" id="2_q8d8k"]
 [ext_resource type="AudioStream" uid="uid://lt42tg1ko1tl" path="res://Assets/Sounds/bee-flying-loop-42287-smooth-transition1.mp3" id="2_v5qog"]
+[ext_resource type="AudioStream" uid="uid://dau0f7448iqvd" path="res://Assets/Sounds/163597__naturesound-modified.mp3" id="4_hoj8b"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hoj8b"]
 radius = 0.0215587
@@ -51,6 +52,11 @@ monitorable = false
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="hive_detector"]
 transform = Transform3D(1.91069e-15, 4.37114e-08, 1, 1, -4.37114e-08, 0, 4.37114e-08, 1, -4.37114e-08, 0, -0.0104322, 0.0284721)
 shape = SubResource("CapsuleShape3D_hoj8b")
+
+[node name="BackgroundAudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_hoj8b")
+autoplay = true
+parameters/looping = true
 
 [connection signal="body_entered" from="crash_detector" to="." method="_on_crash_detector_body_entered"]
 [connection signal="area_entered" from="flower_detector" to="." method="_on_flower_detector_area_entered"]

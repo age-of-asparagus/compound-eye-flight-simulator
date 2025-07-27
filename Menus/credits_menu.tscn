@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://vphrmlsrkkow"]
+[gd_scene load_steps=10 format=3 uid="uid://vphrmlsrkkow"]
 
 [ext_resource type="Script" uid="uid://bqwpkvgvgctsc" path="res://Menus/credits_menu.gd" id="1_vmgae"]
 [ext_resource type="AudioStream" uid="uid://3soj74ic5lk2" path="res://Assets/Sounds/Kenney/impactWood_light_000.ogg" id="2_a84my"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dvb7sq1wavcrg" path="res://Menus/CreatedPanel.tscn" id="6_a84my"]
 [ext_resource type="PackedScene" uid="uid://bf33w2cy0n0eo" path="res://Menus/MenuTitle.tscn" id="6_je1t3"]
 [ext_resource type="Theme" uid="uid://bvnm8v6xvb2nf" path="res://Menus/Theme/Check.tres" id="7_ukk4y"]
+[ext_resource type="PackedScene" uid="uid://47iyxlsf6dsf" path="res://Menus/background_bzzzz.tscn" id="9_c1o7t"]
 
 [node name="CreditsMenu" type="Control"]
 layout_mode = 3
@@ -116,6 +117,7 @@ Cupertino Game Dev Club and [url={https://itch.io/jam/melonjam6}]Melon Jam 6[/ur
  * Bee Hive (CC0): https://freesound.org/people/felix.blume/sounds/567548/
  * Bird Call (CC0):  https://freesound.org/people/Jofae/sounds/361470/s
  * Splat (CC0)s: https://freesound.org/people/nebulasnails/sounds/495117/
+ * Nature Sound (CC-BY_: https://freesound.org/people/naturesoundspa/sounds/163597/
 
 [b]Research[/b]
  * Insect Vision Part 4: What do Insects See? (https://youtu.be/2Hs3vAZYsA8?si=k5T9hqmIeZGNjVY0) by Entomology Animated
@@ -124,6 +126,8 @@ Cupertino Game Dev Club and [url={https://itch.io/jam/melonjam6}]Melon Jam 6[/ur
 
 "
 fit_content = true
+
+[node name="BackgroundBzzzz" parent="." instance=ExtResource("9_c1o7t")]
 
 [connection signal="meta_clicked" from="MarginContainer/HBoxContainer/VBoxContainer2/PanelContainer/VBoxContainer/RichTextLabel" to="." method="_on_rich_text_label_meta_clicked"]
 

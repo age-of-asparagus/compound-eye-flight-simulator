@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://47iyxlsf6dsf"]
+
+[ext_resource type="AudioStream" uid="uid://lt42tg1ko1tl" path="res://Assets/Sounds/bee-flying-loop-42287-smooth-transition1.mp3" id="1_akc55"]
+
+[node name="BackgroundBzzzz" type="AudioStreamPlayer"]
+stream = ExtResource("1_akc55")
+volume_db = -15.0
+autoplay = true
+parameters/looping = true

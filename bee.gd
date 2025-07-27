@@ -1,5 +1,6 @@
 extends CharacterBody3D
 @onready var audio_buzz: AudioStreamPlayer = $AudioStreamPlayer
+@onready var background_audio: AudioStreamPlayer = $BackgroundAudioStreamPlayer
 
 @export var boost_acceleration : float
 @export var forward_acceleration : float

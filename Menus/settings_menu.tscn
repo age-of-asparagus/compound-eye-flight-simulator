@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://bh5e24bmy5pci"]
+[gd_scene load_steps=11 format=3 uid="uid://bh5e24bmy5pci"]
 
 [ext_resource type="Texture2D" uid="uid://bfxakykrxuv8l" path="res://Assets/background.png" id="1_evfbw"]
 [ext_resource type="Script" uid="uid://eun22o8lgu3k" path="res://Menus/settings_menu.gd" id="1_kpbbf"]
+[ext_resource type="PackedScene" uid="uid://47iyxlsf6dsf" path="res://Menus/background_bzzzz.tscn" id="2_7dsyu"]
 [ext_resource type="PackedScene" uid="uid://c33cnflued084" path="res://Menus/button_load_scene.tscn" id="2_kpbbf"]
 [ext_resource type="AudioStream" uid="uid://3soj74ic5lk2" path="res://Assets/Sounds/Kenney/impactWood_light_000.ogg" id="2_macso"]
 [ext_resource type="PackedScene" uid="uid://datosexhdbjj2" path="res://Menus/TitlePanel.tscn" id="3_kpbbf"]
@@ -18,6 +19,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_kpbbf")
+
+[node name="BackgroundBzzzz" parent="." instance=ExtResource("2_7dsyu")]
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_macso")
