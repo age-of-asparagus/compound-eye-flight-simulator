@@ -1,11 +1,14 @@
-[gd_scene load_steps=14 format=3 uid="uid://kd30hvhvgyf0"]
+[gd_scene load_steps=21 format=3 uid="uid://kd30hvhvgyf0"]
 
-[ext_resource type="Script" uid="uid://c8yyffl1div1m" path="res://Camera/hud.gd" id="1_gsqqc"]
+[ext_resource type="Script" path="res://Camera/hud.gd" id="1_gsqqc"]
 [ext_resource type="Texture2D" uid="uid://bfc2bo0j4vk0v" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/checkbox_brown_cross.png" id="2_80n8k"]
 [ext_resource type="Texture2D" uid="uid://dxkhiotvigokm" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_a.png" id="2_a8s7n"]
 [ext_resource type="Texture2D" uid="uid://bavyx22uayipu" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/checkbox_beige_cross.png" id="2_hjwoo"]
 [ext_resource type="Texture2D" uid="uid://b0ce4pr7lyfgk" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/round_brown_empty.png" id="2_tfapf"]
+[ext_resource type="PackedScene" uid="uid://btf0iccai10qr" path="res://addons/versatile-mobile-joystick/joystick.tscn" id="2_wq6c8"]
 [ext_resource type="Texture2D" uid="uid://bob74e47hn2fy" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/round_grey_dark.png" id="3_4em5d"]
+[ext_resource type="Texture2D" uid="uid://bktmb2o61l8l4" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/round_damaged_brown_dark.png" id="3_wq6c8"]
+[ext_resource type="Texture2D" uid="uid://bpkmg1sylcnl8" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/checkbox_beige_empty.png" id="4_fv76l"]
 [ext_resource type="Texture2D" uid="uid://b7cv85xcopgvv" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/minimap_ring_grey_detail.png" id="4_xtu8s"]
 [ext_resource type="Texture2D" uid="uid://3xns6cvbqma7" path="res://Assets/kenney_ui-pack-adventure/PNG/Default/minimap_compass_future_n.png" id="5_tfapf"]
 [ext_resource type="Texture2D" uid="uid://c8aj3ijwslk1t" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/progress_transparent.png" id="6_80n8k"]
@@ -14,10 +17,52 @@
 [ext_resource type="Texture2D" uid="uid://xypw7vvq8hgb" path="res://Assets/bee_low_poly/bee.png" id="8_a8s7n"]
 [ext_resource type="Texture2D" uid="uid://7v6ulfd823rs" path="res://Assets/bee_hive/hive.png" id="9_4em5d"]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_wq6c8"]
+radius = 30.28
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fv76l"]
+radius = 70.83
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dvguk"]
+size = Vector2(1920, 1080)
+
+[sub_resource type="Curve" id="Curve_y6fb2"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 1, Vector2(1, 1), 0.0, 0.0, 1, 0]
+point_count = 2
+
 [node name="HUD" type="CanvasLayer" node_paths=PackedStringArray("necter_progress_bar", "hive_progress_bar")]
 script = ExtResource("1_gsqqc")
 necter_progress_bar = NodePath("MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/NecterProgressBar")
 hive_progress_bar = NodePath("MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/HiveProgressBar")
+
+[node name="JoystickController" parent="." instance=ExtResource("2_wq6c8")]
+position = Vector2(960, 540)
+base_texture = ExtResource("3_wq6c8")
+tip_texture = ExtResource("4_fv76l")
+deadzone_circle = SubResource("CircleShape2D_wq6c8")
+tip_limit_circle = SubResource("CircleShape2D_fv76l")
+touch_detection_region = SubResource("RectangleShape2D_dvguk")
+strength_curve = SubResource("Curve_y6fb2")
+visibility_mode = 1
+left_movement = "Move_left"
+right_movement = "Move_right"
+up_movement = "Move_down"
+down_movement = "Move_up"
+
+[node name="Base" parent="JoystickController/Joystick" index="0"]
+texture = ExtResource("3_wq6c8")
+
+[node name="Tip" parent="JoystickController/Joystick" index="1"]
+texture = ExtResource("4_fv76l")
+
+[node name="TouchDetector" parent="JoystickController/TouchDetectorIndicator" index="0"]
+shape = SubResource("RectangleShape2D_dvguk")
+
+[node name="DeadZone" parent="JoystickController/DeadZoneIndicator" index="0"]
+shape = SubResource("CircleShape2D_wq6c8")
+
+[node name="TipLimit" parent="JoystickController/TipLimitIndicator" index="0"]
+shape = SubResource("CircleShape2D_fv76l")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchors_preset = 15
@@ -215,3 +260,5 @@ texture_under = ExtResource("6_80n8k")
 texture_progress = ExtResource("7_hjwoo")
 
 [connection signal="pressed" from="MarginContainer/TextureButton" to="." method="_on_texture_button_pressed"]
+
+[editable path="JoystickController"]

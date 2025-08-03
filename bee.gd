@@ -21,6 +21,8 @@ extends CharacterBody3D
 @onready var target_roll_rotation = rotation.z
 
 func _physics_process(delta):
+	var direction = Input.get_vector("Move_left", "Move_right", "Move_up", "Move_down", 0)
+	print(direction)
 	
 	Global.bee_position = global_position
 	
@@ -58,6 +60,7 @@ func apply_air_resistance(delta : float):
 
 func get_input_vertical_rotation():
 	var input_vertical_rotation = Input.get_axis("Move_down", "Move_up")
+	print(input_vertical_rotation)
 	return input_vertical_rotation
 
 func get_input_horizontal_rotation():
