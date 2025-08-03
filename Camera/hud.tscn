@@ -1,6 +1,6 @@
 [gd_scene load_steps=21 format=3 uid="uid://kd30hvhvgyf0"]
 
-[ext_resource type="Script" path="res://Camera/hud.gd" id="1_gsqqc"]
+[ext_resource type="Script" uid="uid://c8yyffl1div1m" path="res://Camera/hud.gd" id="1_gsqqc"]
 [ext_resource type="Texture2D" uid="uid://bfc2bo0j4vk0v" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/checkbox_brown_cross.png" id="2_80n8k"]
 [ext_resource type="Texture2D" uid="uid://dxkhiotvigokm" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_a.png" id="2_a8s7n"]
 [ext_resource type="Texture2D" uid="uid://bavyx22uayipu" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/checkbox_beige_cross.png" id="2_hjwoo"]
@@ -24,7 +24,7 @@ radius = 30.28
 radius = 70.83
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dvguk"]
-size = Vector2(1920, 1080)
+size = Vector2(960, 1080)
 
 [sub_resource type="Curve" id="Curve_y6fb2"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 1, Vector2(1, 1), 0.0, 0.0, 1, 0]
@@ -36,7 +36,7 @@ necter_progress_bar = NodePath("MarginContainer/NinePatchRect/MarginContainer/VB
 hive_progress_bar = NodePath("MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/HiveProgressBar")
 
 [node name="JoystickController" parent="." instance=ExtResource("2_wq6c8")]
-position = Vector2(960, 540)
+position = Vector2(480, 540)
 base_texture = ExtResource("3_wq6c8")
 tip_texture = ExtResource("4_fv76l")
 deadzone_circle = SubResource("CircleShape2D_wq6c8")

@@ -1,8 +1,9 @@
-[gd_scene load_steps=14 format=3 uid="uid://bcj4lgqmnfd70"]
+[gd_scene load_steps=15 format=3 uid="uid://bcj4lgqmnfd70"]
 
 [ext_resource type="Material" uid="uid://bcp6ulw45hrp" path="res://WaterMaterial.tres" id="1_gbfbk"]
 [ext_resource type="MeshLibrary" uid="uid://heoqmotosp3q" path="res://MeshLibraries/GrassAndBushes.tres" id="1_pkg7o"]
 [ext_resource type="PackedScene" uid="uid://b0r37q1nm8yk6" path="res://Camera/fancy_camera_setup.tscn" id="1_tlwt5"]
+[ext_resource type="PackedScene" uid="uid://ocjhkhn5ottq" path="res://Boostbutton.tscn" id="1_wse8f"]
 [ext_resource type="Material" uid="uid://hpfepi078saa" path="res://Ground.tres" id="2_ioo17"]
 [ext_resource type="PackedScene" uid="uid://dn44wth4av1cm" path="res://GridMapLevel1.tscn" id="2_pkg7o"]
 [ext_resource type="PackedScene" uid="uid://ydmombs4jus8" path="res://bee.tscn" id="3_tlwt5"]
@@ -31,6 +32,10 @@ tonemap_mode = 2
 viewport_path = NodePath("SubViewport")
 
 [node name="World" type="Node3D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" parent="CanvasLayer" instance=ExtResource("1_wse8f")]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
@@ -300,5 +305,7 @@ transform = Transform3D(0.982087, 0, -0.188427, 0, 1, 0, 0.188427, 0, 0.982087, 
 
 [node name="Flower14" parent="Flowers" instance=ExtResource("4_aqk2v")]
 transform = Transform3D(0.959442, 0, -0.281906, 0, 1, 0, 0.281906, 0, 0.959442, -4.19075, 32.966, -18.6708)
+
+[connection signal="pressed" from="CanvasLayer/Button" to="FancyCameraSetup/HUD" method="_on_button_pressed"]
 
 [editable path="FancyCameraSetup"]

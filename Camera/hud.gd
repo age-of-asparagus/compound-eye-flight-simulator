@@ -13,3 +13,13 @@ func _process(delta: float) -> void:
 
 func _on_texture_button_pressed() -> void:
 	get_tree().change_scene_to_file("res://Menus/main_menu.tscn")
+
+
+func _on_button_pressed() -> void:
+	# When the button is pressed, simulate space bar:
+	var press := InputEventAction.new()
+	press.action = "Boost"
+	press.pressed = true
+	press.strength = 1.0
+	Input.parse_input_event(press)
+	print("pressing boost")
