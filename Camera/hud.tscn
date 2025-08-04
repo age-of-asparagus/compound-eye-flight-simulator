@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://kd30hvhvgyf0"]
+[gd_scene load_steps=22 format=3 uid="uid://kd30hvhvgyf0"]
 
 [ext_resource type="Script" uid="uid://c8yyffl1div1m" path="res://Camera/hud.gd" id="1_gsqqc"]
 [ext_resource type="Texture2D" uid="uid://bfc2bo0j4vk0v" path="res://Assets/kenney_ui-pack-adventure/PNG/Double/checkbox_brown_cross.png" id="2_80n8k"]
@@ -17,6 +17,9 @@
 [ext_resource type="Texture2D" uid="uid://xypw7vvq8hgb" path="res://Assets/bee_low_poly/bee.png" id="8_a8s7n"]
 [ext_resource type="Texture2D" uid="uid://7v6ulfd823rs" path="res://Assets/bee_hive/hive.png" id="9_4em5d"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wq6c8"]
+size = Vector2(960, 1080)
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_wq6c8"]
 radius = 30.28
 
@@ -34,6 +37,12 @@ point_count = 2
 script = ExtResource("1_gsqqc")
 necter_progress_bar = NodePath("MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/NecterProgressBar")
 hive_progress_bar = NodePath("MarginContainer/NinePatchRect/MarginContainer/VBoxContainer/HiveProgressBar")
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2(1440, 540)
+shape = SubResource("RectangleShape2D_wq6c8")
+shape_centered = false
+action = "Boost"
 
 [node name="JoystickController" parent="." instance=ExtResource("2_wq6c8")]
 position = Vector2(480, 540)
